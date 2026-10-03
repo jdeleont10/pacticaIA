@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastBite - Restaurante de Comida Rápida</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>FastBite</h1>
+        <p>Hamburguesas, papas y mucho sabor.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#combos">Combos</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido a FastBite</h2>
+
+            <p>
+                Disfruta hamburguesas, papas fritas, bebidas y combos preparados
+                para compartir con amigos y familia.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                alt="Hamburguesa con papas fritas"
+                width="650"
+            >
+        </section>
+
+        <section id="menu">
+            <h2>Nuestro menú</h2>
+
+            <div>
+                <article>
+                    <h3>Hamburguesa Clásica</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+                        alt="Hamburguesa clásica"
+                        width="300"
+                    >
+
+                    <p>
+                        Carne de res, queso, lechuga, tomate y nuestra salsa especial.
+                    </p>
+
+                    <ul>
+                        <li>Carne de res</li>
+                        <li>Queso americano</li>
+                        <li>Vegetales frescos</li>
+                    </ul>
+
+                    <p><strong>Precio:</strong> Q35.00</p>
+                </article>
+
+                <article>
+                    <h3>Pollo Crujiente</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1562967914-608f82629710"
+                        alt="Hamburguesa de pollo"
+                        width="300"
+                    >
+
+                    <p>
+                        Filete de pollo crujiente con lechuga y mayonesa.
+                    </p>
+
+                    <ul>
+                        <li>Pollo empanizado</li>
+                        <li>Lechuga</li>
+                        <li>Mayonesa</li>
+                    </ul>
+
+                    <p><strong>Precio:</strong> Q32.00</p>
+                </article>
+
+                <article>
+                    <h3>Papas Fritas</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877"
+                        alt="Papas fritas"
+                        width="300"
+                    >
+
+                    <p>
+                        Papas doradas y crujientes, perfectas para acompañar tu comida.
+                    </p>
+
+                    <p><strong>Precio:</strong> Q15.00</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="combos">
+            <h2>Combos</h2>
+
+            <ol>
+                <li>
+                    <strong>Combo Clásico:</strong>
+                    Hamburguesa clásica + papas + bebida - Q50.00
+                </li>
+
+                <li>
+                    <strong>Combo Pollo:</strong>
+                    Hamburguesa de pollo + papas + bebida - Q48.00
+                </li>
+
+                <li>
+                    <strong>Combo Doble:</strong>
+                    Hamburguesa doble + papas grandes + bebida - Q65.00
+                </li>
+            </ol>
+        </section>
+
+        <section id="promociones">
+            <h2>Promociones</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Promoción</th>
+                    <th>Día</th>
+                    <th>Precio</th>
+                </tr>
+
+                <tr>
+                    <td>2 Hamburguesas Clásicas</td>
+                    <td>Martes</td>
+                    <td>Q55.00</td>
+                </tr>
+
+                <tr>
+                    <td>Combo Pollo</td>
+                    <td>Miércoles</td>
+                    <td>Q40.00</td>
+                </tr>
+
+                <tr>
+                    <td>Combo Familiar</td>
+                    <td>Viernes</td>
+                    <td>Q120.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>¿Por qué elegir FastBite?</h2>
+
+            <ul>
+                <li>Ingredientes frescos.</li>
+                <li>Preparación rápida.</li>
+                <li>Variedad de hamburguesas y combos.</li>
+                <li>Precios accesibles.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Haz tu pedido</h2>
+
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <br><br>
+
+                <label for="pedido">Pedido:</label>
+                <input type="text" id="pedido" name="pedido">
+
+                <br><br>
+
+                <label for="direccion">Dirección:</label>
+                <textarea id="direccion" name="direccion"></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar pedido</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 FastBite -
+            <span>Comida rápida y deliciosa</span>
+        </p>
+    </footer>
+
+</body>
+</html>
